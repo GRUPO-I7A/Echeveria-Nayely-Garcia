@@ -584,6 +584,15 @@ order section starts
 .order .row form .btn:hover{
   background-color: var(--red);
 }
+/*añadimos un nuevo estilo para que todas las etiquetas p dentro de content, 
+que esta en row de order tengan las siguientes caracteriticas*/
+.order .row  .content p{
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+  padding:1rem ;
+  line-height: 45px;
+}
+
 /* 
 ====================
 order section end
